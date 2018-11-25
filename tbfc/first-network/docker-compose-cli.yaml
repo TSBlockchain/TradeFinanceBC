@@ -67,7 +67,7 @@ services:
     networks:
       - byfn
 
-  peer1.org2.example.com:
+  peer1.org3.example.com:
     container_name: peer1.org3.example.com
     extends:
       file:  base/docker-compose-base.yaml
